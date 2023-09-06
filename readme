@@ -1,0 +1,25 @@
+
+
+## Requisitos Previos
+
+Asegúrate de tener instalados los siguientes requisitos antes de continuar:
+
+- [Node.js](https://nodejs.org/) (versión X.X.X)
+- [npm](https://www.npmjs.com/)
+- Postres
+
+
+
+## Instalación
+
+Sigue estos pasos para instalar y ejecutar la aplicación en tu entorno local:
+
+1. Clona el repositorio:
+
+   ```bash
+    git clone https://github.com/aorosco/api1.git
+    gh repo clone aorosco/api1
+    git@github.com:aorosco/api1.git
+    
+
+2. 
