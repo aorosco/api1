@@ -22,4 +22,21 @@ Sigue estos pasos para instalar y ejecutar la aplicación en tu entorno local:
     git@github.com:aorosco/api1.git
     
 
-2. 
+2. Configura postgres o el archivo app.js con las mismas credenciales para el acceso al gestor de base de datos
+3. Crea la Base de datos y agrega el esquema de la Tabla (SQL):
+   CREATE DATABASE api1;
+   \c api1;
+   CREATE TABLE usuarios (
+       id SERIAL PRIMARY KEY,
+       cedula_identidad INTEGER,
+       nombre VARCHAR(255),
+       primer_apellido VARCHAR(255),
+       segundo_apellido VARCHAR(255),
+       fecha_nacimiento DATE
+   );
+   \dt
+4. Ejecuta los comandos
+   npm install
+   npm start 
+el servidor devería estar corriendo en el puerto indicado (4000)
+
